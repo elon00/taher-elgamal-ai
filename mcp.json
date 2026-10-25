@@ -1,0 +1,51 @@
+{
+  "name": "taher-elgamal-ai-mcp",
+  "version": "1.0.0",
+  "description": "Taher Elgamal AI Model Context Protocol Server for Autonomous Discrete-Logarithm Cryptography, ElGamal Digital Signatures, Transport Layer Security (SSL/TLS) & Web-Scale Trust Protocol",
+  "tools": [
+    {
+      "name": "audit_discrete_log_cryptographic_strength",
+      "description": "Evaluate prime field size, generator selection, and index calculus attack resistance across discrete-logarithm cryptographic systems",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prime_field_bits": {
+            "type": "string"
+          },
+          "signature_variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "prime_field_bits"
+        ]
+      }
+    },
+    {
+      "name": "disburse_tls_security_grant",
+      "description": "Trigger automated micro-escrow releases for forward-secret cipher suite adoption, post-quantum TLS handshakes, and public-key infrastructure audits",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
